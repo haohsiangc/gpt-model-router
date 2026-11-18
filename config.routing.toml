@@ -1,0 +1,9 @@
+# Merge only these routing keys into your config.toml.
+# Keep the first two keys at the top level, before any [table].
+model = "gpt-6.2-sol"
+model_reasoning_effort = "high"
+
+[agents]
+enabled = true
+default_subagent_model = "gpt-6.1-terra"
+default_subagent_reasoning_effort = "medium"
